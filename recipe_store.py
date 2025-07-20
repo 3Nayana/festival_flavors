@@ -24,7 +24,11 @@ class Recipe(Base):
     audio = Column(LargeBinary)
 
 # Database setup (SQLite for local use)
-DATABASE_URL = "sqlite:///festival_flavors.db"
+import os
+
+DB_PATH = os.path.join("/tmp", "festival_flavors.db")
+DATABASE_URL = f"sqlite:///{DB_PATH}"
+
 
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = scoped_session(sessionmaker(autocommit=False, autoflush=False, bind=engine))
