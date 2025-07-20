@@ -1,9 +1,9 @@
 streamlit==1.35.0
+streamlit-webrtc==0.44.6
 sqlalchemy==2.0.30
-rich==13.7.1
-streamlit-webrtc==0.45.3
 av==10.0.0
 geocoder==1.38.1
 pillow
 numpy
 soundfile
+rich==13.7.1
