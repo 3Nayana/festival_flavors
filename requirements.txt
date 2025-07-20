@@ -1,6 +1,18 @@
-streamlit==1.35.0
-sqlalchemy==2.0.30
-streamlit-webrtc==0.45.0
-numpy==1.26.4
-geocoder==1.38.1
-pydub==0.25.1
+# Use Python 3.9 to ensure compatibility with SQLAlchemy, av, etc.
+python_version == 3.9.*
+
+# Core dependencies
+streamlit >= 1.32
+sqlalchemy >= 1.4
+
+# For audio/video streaming
+streamlit-webrtc >= 0.45.0
+av >= 10.0.0
+
+# For geolocation based on IP
+geocoder >= 1.38.1
+
+# Optional but recommended: manage JSON & hashing properly (part of stdlib, no need to add hashlib or json)
+
+# If using speech recognition
+speechrecognition >= 3.10.0
