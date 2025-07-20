@@ -5,9 +5,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 import streamlit as st
 import tempfile
 
-from src.components import login_form, register_form
-from src.geo_utils import get_coordinates
-from src.recipe_store import save_recipe, recipe_exists, search_recipes_by_dish
+from components import login_form, register_form
+from geo_utils import get_coordinates
+from recipe_store import save_recipe, recipe_exists, search_recipes_by_dish
 
 st.set_page_config(page_title="Festival Flavors", layout="centered")
 st.title("🎉 Festival Flavors")
