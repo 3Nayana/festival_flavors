@@ -18,5 +18,5 @@ features:
 
 storage:
   recipe_store: sqlite
-  json_backup_path: data/contributions.json
-  users_file: data/users.json
+  json_backup_path: contributions.json
+  users_file: users.json
