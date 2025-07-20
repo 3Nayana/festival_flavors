@@ -12,7 +12,8 @@ from recipe_store import save_recipe, recipe_exists, search_recipes_by_dish
 from geo_utils import get_coordinates
 from voice_utils import transcribe_audio
 
-USERS_FILE = "data/users.json"
+USERS_FILE = "users.json"
+
 
 # Audio Recording Queue
 audio_queue = queue.Queue()
