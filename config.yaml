@@ -1,0 +1,22 @@
+app_name: Festival Flavors
+
+languages_supported:
+  - Telugu
+  - Hindi
+  - Tamil
+  - Bengali
+  - Marathi
+  - Kannada
+
+features:
+  speech_to_text: true
+  transliteration: true
+  auto_geo_location: true
+  user_registration: true
+  store_contributions_in_json: true
+  max_recent_recipes: 5
+
+storage:
+  recipe_store: sqlite
+  json_backup_path: data/contributions.json
+  users_file: data/users.json

@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Nayana",
+        "festival": "sankranthi",
+        "dish": "payasam",
+        "language": "Telugu",
+        "ingredients": "milk, sugar, nuts, vermicelli, ghee",
+        "instructions": "sdfghjl;poiufsdcvjoihcvbnm,",
+        "image": null,
+        "latitude": 17.384,
+        "longitude": 78.4564
+    },
+    {
+        "name": "",
+        "festival": "",
+        "dish": "",
+        "language": "Telugu",
+        "ingredients": "",
+        "instructions": "",
+        "image_path": "data/_.png"
+    },
+    {
+        "name": "Nayana",
+        "festival": "Sankranthi",
+        "dish": "Payasam",
+        "language": "Telugu",
+        "ingredients": "milk, vermicelli, sugar, nuts",
+        "instructions": "pour milk. boil the vermicelli, keep stirring to avoid burning, add sugar,, cook for 3 to 5 mins on low flame. add cardamom powder, add nuts."
+    },
+    {
+        "name": "",
+        "festival": "",
+        "dish": "",
+        "language": "Telugu",
+        "ingredients": "",
+        "instructions": ""
+    },
+    {
+        "name": "Nayana",
+        "festival": "sankranthi",
+        "dish": "payasam",
+        "language": "Telugu",
+        "ingredients": "milk, sugar, nuts, vermicelli, ghee",
+        "instructions": "sdfghjl;poiufsdcvjoihcvbnm,",
+        "image": null,
+        "latitude": 17.384,
+        "longitude": 78.4564
+    }
+]
