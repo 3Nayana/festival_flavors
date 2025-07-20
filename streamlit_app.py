@@ -1,2 +1,2 @@
 # festival-flavors/app.py
-from .main import *
+from main import *
