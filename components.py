@@ -8,9 +8,9 @@ import threading
 from streamlit_webrtc import webrtc_streamer, AudioProcessorBase, VideoProcessorBase
 import av
 
-from .recipe_store import save_recipe, recipe_exists, search_recipes_by_dish
-from .geo_utils import get_coordinates
-from .voice_utils import transcribe_audio
+from recipe_store import save_recipe, recipe_exists, search_recipes_by_dish
+from geo_utils import get_coordinates
+from voice_utils import transcribe_audio
 
 USERS_FILE = "data/users.json"
 
@@ -152,9 +152,13 @@ def search_recipes():
                     st.text(f"Festival: {r.festival or 'N/A'}")
                     st.text(f"By: {r.name}")
                     st.markdown(f"**Instructions:** {r.instructions}")
-                    if r.image_path:
-                        st.image(r.image_path)
-                    st.markdown("---")
+                    if r.image:
+                        st.image(r.image, caption="Dish Image", use_container_width=True)
+                    if r.video:
+                        st.video(r.video)
+                    if r.audio:
+                        st.audio(r.audio, format="audio/wav")
+
             else:
                 st.info("No recipes found.")
         else:
