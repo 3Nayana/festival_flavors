@@ -1,0 +1,8 @@
+streamlit==1.35.0
+streamlit-webrtc==0.45.0
+sqlalchemy==2.0.30
+geocoder==1.38.1
+speechrecognition==3.10.1
+av==10.0.0
+numpy==1.26.4
+pydub==0.25.1
